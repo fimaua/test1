@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+}
+.page {
+  width: 100%;
+  height: 100%;
+  background-image: url(./src/peppermint-BG.jpg);
+  transition: background-image 1.5s;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  position: relative;
+  width: 100%;
+  height: 40%;
+}
+.header-background,
+.header-banner {
+  position: absolute;
+}
+.header-background {
+  width: 100%;
+  height: 100%;
+}
+.header-banner {
+  height: 15%;
+  width: 15%;
+  margin-left: 10%;
+}
+.peach,
+.raspberry {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.peppermint {
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+}
+/* .header-tagline {
+  width: 75%;
+  height: 50%;
+  top: 40%;
+  left: 10%;
+} */
+.content {
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+}
+.content-background {
+  position: relative;
+  height: 80%;
+}
+.content-carusel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.content-carusel__arrow-left,
+.content-carusel__arrow-right,
+.content-carusel__product-list {
+  position: absolute;
+}
+.content-carusel__product-list {
+  display: flex;
+  height: 77%;
+  width: 67%;
+  top: 18%;
+  left: 20%;
+  right: 10%;
+  transition: transform 1.5s;
+  will-change: transform;
+}
+.content-carusel__product-list div {
+  flex: 0 0 100%;
+  margin-right: 30%;
+  overflow: hidden;
+}
+.content-carusel__arrow-left {
+  width: 10%;
+  top: 40%;
+  left: 5%;
+}
+.content-carusel__arrow-right {
+  width: 10%;
+  top: 40%;
+  right: 5%;
+}
+.shop-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+}
+.shop-btn__img {
+  height: 35%;
+  width: 35%;
+}
+.content-background__papermint div {
+  position: absolute;
+}
+.content-background__papermint {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.papermint-1 {
+  left: -3%;
+  top: 53%;
+  width: 59%;
+  height: 61%;
+}
+.papermint-2 {
+  width: 40%;
+  height: 50%;
+  left: 74%;
+  top: 97%;
+}
+.seed-1 {
+  width: 9%;
+  height: 11%;
+  left: 83%;
+  top: 90%;
+}
+.seed-2 {
+  width: 9%;
+  height: 11%;
+  left: 96%;
+  top: 44%;
+}
+.strawberry-1 {
+  width: 40%;
+  height: 50%;
+  left: -19%;
+  top: 5%;
+}
+.strawberry-2 {
+  width: 40%;
+  height: 55%;
+  left: 62%;
+  top: 8%;
+}
